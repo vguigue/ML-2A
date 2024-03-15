@@ -42,4 +42,4 @@ Dernier exercice consacré à numpy: nous allons apprendre un régresseur par de
 
 De nouveau, nous consolidons les bases de numpy/matplotlib... Tout en poursuivant le panorama du ML vers les problèmes de régression et de gradient. Ce dernier point est critique: le gradient est un outil central dans tous les réseaux de neurones et il est important d'avoir une représentation mentale de l'impact des différents réglages possibles.
 
-<img src="/A-Introduction/3-Gradient/notebooks/fig/animation.gif" width=800px>
+<img src="/A-Introduction/3-Gradient/notebooks/fig/animation.gif" width=600px>
