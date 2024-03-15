@@ -30,7 +30,7 @@ Une sorte de tutoriel orienté données. L'objectif est de consolider la pratiqu
 - Calculer les paramètres des distributions au sens du max de vraisemblance
 - Prendre une décision et mesurer les performances
 
-<img src="/2-Naive-Bayes/notebooks/ressources/usps.png" width=200px>
+<img src="/A-Introduction/2-Naive-Bayes/notebooks/ressources/usps.png" width=200px>
 
 
 ## Gradient
@@ -42,4 +42,4 @@ Dernier exercice consacré à numpy: nous allons apprendre un régresseur par de
 
 De nouveau, nous consolidons les bases de numpy/matplotlib... Tout en poursuivant le panorama du ML vers les problèmes de régression et de gradient. Ce dernier point est critique: le gradient est un outil central dans tous les réseaux de neurones et il est important d'avoir une représentation mentale de l'impact des différents réglages possibles.
 
-<img src="/3-Gradient/notebooks/fig/animation.gif" width=800px>
+<img src="/A-Introduction/3-Gradient/notebooks/fig/animation.gif" width=800px>
