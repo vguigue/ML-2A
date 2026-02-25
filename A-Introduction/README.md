@@ -30,7 +30,7 @@ Une sorte de tutoriel orienté données. L'objectif est de consolider la pratiqu
 - Calculer les paramètres des distributions au sens du max de vraisemblance
 - Prendre une décision et mesurer les performances
 
-<img src="/A-Introduction/2-Naive-Bayes/notebooks/ressources/usps.png" width=200px>
+<img src="/A-Introduction/3-Naive-Bayes/notebooks/ressources/usps.png" width=200px>
 
 
 ## Gradient
