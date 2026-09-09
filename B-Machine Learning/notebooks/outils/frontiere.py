@@ -5,6 +5,9 @@ from matplotlib import cm
 def toto(): # pour jouer avec les modules
     print("coucou")
   
+# ------------------------ 
+
+
 def plot_svm(X, Y, classifier, step=30):
     """ 
         affiche la frontière de décision associée au classifieur
@@ -14,7 +17,9 @@ def plot_svm(X, Y, classifier, step=30):
     x1grid,x2grid=np.meshgrid(np.linspace(mmin[0],mmax[0],step),np.linspace(mmin[1],mmax[1],step))
     grid=np.hstack((x1grid.reshape(x1grid.size,1),x2grid.reshape(x2grid.size,1)))
     
-    # calcul de la prediction pour chaque point de la grille
+    # calcul de la marge signee pour chaque point de la grille
+    # NB: c'est bien decision_function (et non predict_proba) qui vaut -1 / 0 / +1
+    #     sur les frontieres de marge d'un SVM
     res=classifier.decision_function(grid)
     res=res.reshape(x1grid.shape)
     ax = plt.gca()
@@ -63,7 +68,7 @@ def plot_mesh(X, Y, classifier, step=30):
     figax = plt.gca() # récupération des axes axtuels
 
     # calcul de la prediction pour chaque point de la grille
-    res=classifier.decision_function(grid) 
+    res=classifier.predict_proba(grid)[:,0] # seulement la première proba (hyp = 2 classes)
     res=res.reshape(x1grid.shape)
 
     Z = (res-res.min())/(res.max()-res.min())
