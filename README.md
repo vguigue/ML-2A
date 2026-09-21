@@ -52,6 +52,7 @@ Domaine = numérique, catégoriel, séries temporelles... Mais pas de texte, pas
 - https://challengedata.ens.fr/challenges/163 [si vous voulez avoir une phase de prise de recul éthique]
 - https://challengedata.ens.fr/challenges/160
 - Prédiction des matchs de tennis: https://github.com/JeffSackmann/tennis_MatchChartingProject
+- Pour les geeks (agents): https://www.kaggle.com/competitions/kaggriculture
 
 Les sources:
 - https://challengedata.ens.fr/challenges/challenges_search
